@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'user_entrybKRDaQ.ui'
+## Form generated from reading UI file 'user_entrylHoaOo.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -17,7 +17,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(550, 228)
+        MainWindow.resize(550, 235)
         MainWindow.setStyleSheet(u"* {\n"
 "	margin: 0px;\n"
 "	padding: 0px;\n"
@@ -218,19 +218,10 @@ class Ui_MainWindow(object):
         self.verticalLayout_2.setObjectName(u"verticalLayout_2")
         self.frm4Status = QFrame(self.rightBody)
         self.frm4Status.setObjectName(u"frm4Status")
-        self.frm4Status.setMinimumSize(QSize(0, 150))
-        self.frm4Status.setMaximumSize(QSize(16777215, 150))
+        self.frm4Status.setMinimumSize(QSize(0, 200))
+        self.frm4Status.setMaximumSize(QSize(16777215, 16777215))
         self.frm4Status.setFrameShape(QFrame.StyledPanel)
         self.frm4Status.setFrameShadow(QFrame.Raised)
-        self.verticalLayout_5 = QVBoxLayout(self.frm4Status)
-        self.verticalLayout_5.setObjectName(u"verticalLayout_5")
-        self.lbStatus = QLabel(self.frm4Status)
-        self.lbStatus.setObjectName(u"lbStatus")
-        self.lbStatus.setMinimumSize(QSize(0, 0))
-        self.lbStatus.setMaximumSize(QSize(16777215, 16777215))
-
-        self.verticalLayout_5.addWidget(self.lbStatus)
-
 
         self.verticalLayout_2.addWidget(self.frm4Status, 0, Qt.AlignTop)
 
@@ -257,6 +248,5 @@ class Ui_MainWindow(object):
         self.label_4.setText(QCoreApplication.translate("MainWindow", u"Address", None))
         self.pbReset.setText(QCoreApplication.translate("MainWindow", u"Resset", None))
         self.pbShow.setText(QCoreApplication.translate("MainWindow", u"Show", None))
-        self.lbStatus.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
     # retranslateUi
 
